@@ -2,7 +2,7 @@
 int main(){
 
     int number/*setting up integer variable*/ = 10/*giving value*/;
-    printf("yap yapity yap\n%d",number);
+    printf("yap yapity yap\n%d", number);
 }
 
 
@@ -10,4 +10,4 @@ int main(){
 
 //double- numbers w/ more than 8 decimal places
 
-//char- strings basically
+//char- one character prints; not more since that's a string
