@@ -22,14 +22,42 @@
 // }
 
 
+// #include <stdio.h>
+// int main(){
+//     int numOfBooks=19;
+//     char favLetter='o';
+//     char favDigit='5';
+//     int favAnime=1;
+//     double costOfCandyBar=1.25;
+//     printf("Number of books: %d\n", numOfBooks);
+//     printf("My favourite anime, demon slayer, is #%d in my heart\n", favAnime);
+//     printf("Your Favorite Letter is: %c\n", favLetter);
+//     printf("Your Favorite Digit is: %c\n", favDigit);
+//     printf("You expect to pay $%.2f for a candy bar.\n", costOfCandyBar);
+// }
+
+
+
 #include <stdio.h>
 int main(){
-    int numOfBooks=19;
-    char favLetter='o';
-    char favDigit='5';
-    double costOfCandyBar=1.25;
-    printf("Number of books: %d\n", numOfBooks);
-    printf("Your Favorite Letter is: %c\n", favLetter);
-    printf("Your Favorite Digit is: %c\n", favDigit);
-    printf("You expect to pay $%.2f for a candy bar.\n", costOfCandyBar);
+    //Modify following variable value assending value until something odd pops out
+    int numOfLoops = 10;
+    float a = 0.1f;
+    float b = 0;
+    double x = 0.1;
+    double y = 0;
+    printf("At the start, our target float b is: %f\n", b);
+    printf("At the start, our target double y is: %f\n", y);
+    //basically, this code adds .1 to b & y each loop
+
+    int i = 0;
+    for(i; i<numOfLoops; i++)
+    {
+        b+=a; //a is 0.1; adds 0.1 to b each run
+        y+=x; //x is 0.1; adds 0.1 to y each run
+    }
+
+    printf("At the end, our target float b is:%f\n", b);
+    printf("At the end, our target double y is:%f\n", y);
+
 }
