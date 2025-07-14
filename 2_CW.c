@@ -38,26 +38,64 @@
 
 
 
+// #include <stdio.h>
+// int main(){
+//     //Modify following variable value assending value until something odd pops out
+//     int numOfLoops = 5000;
+//     float a = 0.1f;
+//     double c = 1.2334532213344533987;
+//     float b = 0;
+//     double x = 0.1;
+//     double y = 0;
+//     printf("At the start, our target float b is: %f\n", b);
+//     printf("At the start, our target double y is: %f\n", y);
+//     printf("A long decimal is %.19f\n", c);
+//     //basically, this code adds .1 to b & y each loop
+
+//     int i = 0;
+//     for(i; i<numOfLoops /*<-- same as i<10*/; i++)
+//     {
+//         b+=a; //a is 0.1; adds 0.1 to b each run
+//         y+=x; //x is 0.1; adds 0.1 to y each run
+//     }
+
+//     printf("At the end, our target float b is:%f\n", b);
+//     printf("At the end, our target double y is:%f\n", y);
+
+// }
+
+
+
+//Testing changable variables:
+    // int a; /*(no value atm)*/
+    // int b = 10;
+    // a = b;   /*a will equal 10, which is b*/
+
+    // b = 20;  /*a will still equal to 10 b/c this b statement was applied after a=b */
+    // a = 25;  /*NOW the variable a will be changed */
+
+
+
+
+// #include <stdio.h>
+// int main(){
+//     char bookVersionReview = 'A';
+//     char movieVersionReview = 'B';
+//     double ticketPrice = 10.25;
+//     double bookPrice = 19.99;
+
+//     movieVersionReview = bookVersionReview;
+//     ticketPrice=bookPrice;
+
+//     printf("The Book version has a review of %c, whilst the cost is $%.2f.\n", bookVersionReview, bookPrice);
+//     printf("It seems this movie is a hit! The movie's rating is %c, whilst due to demand in recent movies, the cost of this movie is a whopping $%.2f!\n", movieVersionReview, ticketPrice);
+
+// }
+
 #include <stdio.h>
 int main(){
-    //Modify following variable value assending value until something odd pops out
-    int numOfLoops = 10;
-    float a = 0.1f;
-    float b = 0;
-    double x = 0.1;
-    double y = 0;
-    printf("At the start, our target float b is: %f\n", b);
-    printf("At the start, our target double y is: %f\n", y);
-    //basically, this code adds .1 to b & y each loop
+    const char* FINAL_LETTER_MARK/*name has to be in all caps when using constants*/= "A"; 
+    printf("My grade was pretty solid for Careers with an %c-\n", FINAL_LETTER_MARK);
 
-    int i = 0;
-    for(i; i<numOfLoops; i++)
-    {
-        b+=a; //a is 0.1; adds 0.1 to b each run
-        y+=x; //x is 0.1; adds 0.1 to y each run
-    }
-
-    printf("At the end, our target float b is:%f\n", b);
-    printf("At the end, our target double y is:%f\n", y);
 
 }
