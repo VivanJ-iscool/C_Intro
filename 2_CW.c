@@ -92,10 +92,28 @@
 
 // }
 
+// #include <stdio.h>
+
+// int main(){
+//     // const int FINAL_GRADE/*name has to be in all caps when using constants*/ = 84;
+//     // printf("My grade was pretty solid for Careers with an %d\n", FINAL_GRADE);
+//     double SPEED_OF_LIGHT=1.86;
+//     int time_traveled_inSeconds=30;
+//     printf("Light would travel at %.2f in %d seconds!\n", SPEED_OF_LIGHT * 100000 * time_traveled_inSeconds, time_traveled_inSeconds);
+
+// }
+
+
 #include <stdio.h>
 int main(){
-    const char* FINAL_LETTER_MARK/*name has to be in all caps when using constants*/= "A"; 
-    printf("My grade was pretty solid for Careers with an %c-\n", FINAL_LETTER_MARK);
-
+    char targetChar;
+    int sourceInt = 99;
+    double sourceDouble = 55.67;
+// Cast here
+    targetChar=(char)sourceDouble;
+    
+    
+// No need to change below here
+    printf("source int %d, source double, %.2f, target %c\n", sourceInt, sourceDouble, targetChar);
 
 }
