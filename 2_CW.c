@@ -105,15 +105,62 @@
 
 
 #include <stdio.h>
-int main(){
-    char targetChar;
-    int sourceInt = 99;
-    double sourceDouble = 55.67;
-// Cast here
-    targetChar=(char)sourceDouble;
-    
-    
-// No need to change below here
-    printf("source int %d, source double, %.2f, target %c\n", sourceInt, sourceDouble, targetChar);
 
+int main() {
+    double testScore = 95.7;
+    int displayScore = 0;
+
+    // No need to change below here
+    printf("Great work, you got a %d%% on your test\n", displayScore);
 }
+
+
+// #include <stdio.h>
+// int main(){
+//     char targetChar;
+//     int sourceInt = 99;
+//     double sourceDouble = 55.67;
+
+// // Cast here
+//     targetChar=(char)sourceDouble;
+    
+// // No need to change below here
+//     printf("source int %d, source double, %.2f, target %c\n", sourceInt, sourceDouble, targetChar);
+
+// }
+
+/*REMEMBER, IT IS VERY IMPORTANT TO KNOW THAT THESE CHARACTER VALUES FROM INTEGER VARIABLES COME FROM THE ASCII TABLE*/
+
+
+
+//Variable Quiz:
+
+//1:
+//a because we're turning x into the character c; therefore char is correct
+
+//2
+//c is the answer because those are the true guidelines for a variable
+
+//3
+//the answer will be c because when it's turned in an integer variable, it automatically rounds down
+
+//4
+//b
+
+//5
+//false; unless the variable is a constant, it can be changed before printing
+
+//6
+//char
+
+//7
+//d
+
+//8
+//c because they are changeable unless a constant
+
+//9
+//true; constant isn't a variable type
+
+//10
+//b. int example=3
