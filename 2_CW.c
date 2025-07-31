@@ -104,63 +104,69 @@
 // }
 
 
-#include <stdio.h>
-
-int main() {
-    double testScore = 95.7;
-    int displayScore = 0;
-
-    // No need to change below here
-    printf("Great work, you got a %d%% on your test\n", displayScore);
-}
-
-
 // #include <stdio.h>
 // int main(){
 //     char targetChar;
 //     int sourceInt = 99;
 //     double sourceDouble = 55.67;
-
 // // Cast here
 //     targetChar=(char)sourceDouble;
+// }
     
 // // No need to change below here
 //     printf("source int %d, source double, %.2f, target %c\n", sourceInt, sourceDouble, targetChar);
 
 // }
 
-/*REMEMBER, IT IS VERY IMPORTANT TO KNOW THAT THESE CHARACTER VALUES FROM INTEGER VARIABLES COME FROM THE ASCII TABLE*/
+
+// #include <stdio.h>
+// int main(){
+//     int x = 1;
+//     char y = 'c';
+//     x = int(y);
+//     printf("%d is cool\n", x);
+
+// }
 
 
 
-//Variable Quiz:
 
-//1:
-//a because we're turning x into the character c; therefore char is correct
+//VARIABLES QUIZ
 
-//2
-//c is the answer because those are the true guidelines for a variable
+//1. a
 
-//3
-//the answer will be c because when it's turned in an integer variable, it automatically rounds down
+//2. c
 
-//4
-//b
+//3. 
 
-//5
-//false; unless the variable is a constant, it can be changed before printing
+//4. b
 
-//6
-//char
+//5. False
 
-//7
-//d
+//6. char
 
-//8
-//c because they are changeable unless a constant
+//7. d
 
-//9
-//true; constant isn't a variable type
+//8. c
 
-//10
-//b. int example=3
+//9. a
+
+//10. b
+
+
+
+
+
+
+//Project: Grocery Store
+
+#include <stdio.h>
+int main(){
+    int applequantity = 23;
+    double apple_prices = 1.49;
+    double appleReview = 82.5;
+    int appleReviewDisplay;
+    const char APPLE_LOCATION = 'F';
+    appleReviewDisplay = (int)appleReview;
+    printf("This is the amount of apples in stock: %d\nThese are the apple prices: %.2f\nOur apples have an amazing review of %d\nFinally, here is where you can find our premieme apples: %.2c", applequantity, apple_prices, appleReviewDisplay, APPLE_LOCATION);
+}
