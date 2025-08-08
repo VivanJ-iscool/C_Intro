@@ -1,0 +1,39 @@
+// #include <stdio.h>
+// int main(){
+//     int a = 1000;
+//     int b = 2342;
+//     int c = a - b;
+//     printf("Here's the difference to a random equation: %d-%d= %d", a,b,c);
+// }
+
+
+
+// #include <stdio.h>
+
+// int main() {
+
+//     int booksSold = 100;
+//     double bookCost = 9.99;
+//     double pre_totalSalesValue;
+//     double post_totalSalesValue;
+
+//     // Make your changes here
+//     booksSold = 200;
+//     pre_totalSalesValue = bookCost * booksSold;
+//     post_totalSalesValue = pre_totalSalesValue / 2;
+
+//     // Output logic, no need to change this
+    
+//     printf("You sold %d books and your take home was $%.2f\n", booksSold, post_totalSalesValue);
+// }
+
+
+#include <stdio.h>
+int main() {
+    
+    int endingDayOfWeek = 0;
+    int daysThatPass;
+    int daysInWeek;
+
+    printf("You started on the 1st (0) day of the week, went %d days from this, so it is now the %d day of the week\n", daysThatPass, endingDayOfWeek);
+}
