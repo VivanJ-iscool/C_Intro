@@ -28,12 +28,68 @@
 // }
 
 
-#include <stdio.h>
-int main() {
+// #include <stdio.h>
+// int main() {
     
-    int endingDayOfWeek = 0;
-    int daysThatPass;
-    int daysInWeek;
+//     int endingDayOfWeek = 23 % 7;
+//     int daysThatPass = 23;
+//     int daysInWeek = 7;
 
-    printf("You started on the 1st (0) day of the week, went %d days from this, so it is now the %d day of the week\n", daysThatPass, endingDayOfWeek);
-}
+//     printf("You started on the 1st (0) day of the week, went %d days from this, so it is now the %d day of the week\n", daysThatPass, endingDayOfWeek);
+// }
+
+
+
+//there are specific increments to increase and decrese things; like to add or subtract 1, you would use ++ or -- after calling a variable
+
+//example: int b = 1;  b++;  <--this would make b have a value of 2
+
+// #include <stdio.h>
+// int main(){
+    
+//     int n = 13;
+//     int m = 10;
+//     n++; /*<-- adding one to 13*/
+//     m--; /*<-- subtracting one from 10*/
+
+
+//     printf("The variable m = %d\n", m);
+//     printf("The variable n = %d", n);
+// }
+
+
+//You can do some similar things with +=, -=, *= and /=. These allow you to shortcut adding different variables
+
+//Example: int a = 2;  int b = 6;  a-=b;  <-- This is a shortcut to a = a - b
+
+
+// #include <stdio.h>
+// int main(){
+//     int timeServerCrashed = 5;
+//     double losses = 500.95;
+
+//     losses *= timeServerCrashed;
+//     losses /= 2;
+
+//     printf("Total Losses: $%.2f\n", losses);
+
+// }
+
+
+//The following is simple bolean logic w/ if statements (true and false code :P)
+
+//*keep in mind that if statement codintions are in brackets
+
+
+// #include <stdio.h>
+// int main(){
+
+//     int x = 5;
+//     int y = 34;
+
+//     if (x != y){
+//         printf("You did em' comparisions right! Good Boyyyyy");
+//     }
+
+
+// }
