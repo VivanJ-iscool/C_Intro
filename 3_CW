@@ -91,5 +91,43 @@
 //         printf("You did em' comparisions right! Good Boyyyyy");
 //     }
 
-
 // }
+
+
+//examples of logical operations
+
+// #include <stdio.h>
+// int main(){
+//     int a = 3;
+//     int b = 9;
+
+//     /*&& stands for and; || stands for or*/
+//     if (a == b && a==2){
+//         printf("both are true\n");
+//     }
+
+//     if (a == b || a == 2){
+//         printf("one or more are true (aka a or b are true)\n");
+//     }
+
+//     if (!(a==b)) {
+//         printf("they aren't equal\n");
+//     }
+// }
+
+
+
+#include <stdio.h>
+int main(){
+    int x = 1;
+    int y = 27;
+
+    if (!(x == y)){
+        printf("Good job! You set this comparision correctly.\n");
+    }
+
+    else {
+        printf("Please try again!\n");
+    }
+
+}
