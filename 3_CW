@@ -117,17 +117,59 @@
 
 
 
+// #include <stdio.h>
+// int main(){
+//     int x = 1;
+//     int y = 27;
+
+//     if (!(x == y)){
+//         printf("Good job! You set this comparision correctly.\n");
+//     }
+    
+//     else {
+//         printf("Please try again!\n");
+//     }
+
+// }
+
+
 #include <stdio.h>
-int main(){
-    int x = 1;
-    int y = 27;
-
-    if (!(x == y)){
-        printf("Good job! You set this comparision correctly.\n");
-    }
-
-    else {
-        printf("Please try again!\n");
-    }
+int main() {
+    
+    int x;
+    int y;
+    x = (2 + 3) * 5;
+    y = 2 / (4 + 6);
+    
+    printf("x is: %d\n", x);
+    printf("y is: %d\n", y);
 
 }
+
+
+
+
+
+
+//QUIZ FOR OPERATORS
+
+//1. The answer is b.
+
+//2. The true or false statement is false.
+
+//3. ==
+
+//4. The answer is d.
+
+//5. The answer is c.
+
+//6. *= 2
+
+//7. ||
+
+//8. The answer is a.
+
+//9. The answer is b.
+
+//10. ++
+
