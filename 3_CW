@@ -17,12 +17,10 @@
 //     double pre_totalSalesValue;
 //     double post_totalSalesValue;
 
-//     // Make your changes here
 //     booksSold = 200;
 //     pre_totalSalesValue = bookCost * booksSold;
 //     post_totalSalesValue = pre_totalSalesValue / 2;
 
-//     // Output logic, no need to change this
     
 //     printf("You sold %d books and your take home was $%.2f\n", booksSold, post_totalSalesValue);
 // }
@@ -133,18 +131,18 @@
 // }
 
 
-#include <stdio.h>
-int main() {
+// #include <stdio.h>
+// int main() {
     
-    int x;
-    int y;
-    x = (2 + 3) * 5;
-    y = 2 / (4 + 6);
+//     int x;
+//     int y;
+//     x = (2 + 3) * 5;
+//     y = 2 / (4 + 6);
     
-    printf("x is: %d\n", x);
-    printf("y is: %d\n", y);
+//     printf("x is: %d\n", x);
+//     printf("y is: %d\n", y);
 
-}
+// }
 
 
 
@@ -173,3 +171,28 @@ int main() {
 
 //10. ++
 
+
+
+
+//Project for Operators
+
+#include <stdio.h>
+int main(){
+    int applequantity = 23;
+    double apple_prices = 1.49;
+    double appleReview = 82.5;
+    appleReview = (823/*old total review score*/ +52/*unhappy reviewer score*/)/(9 /*total reviewers*/ +1/*new reviewer*/);
+    int appleReviewDisplay;
+    const char APPLE_LOCATION = 'F';
+    appleReviewDisplay = (int)appleReview;
+    printf("This is the amount of apples in stock: %d\nThese are the apple prices: $%.2f\nOur apples have an amazing review of %d\nFinally, here is where you can find our premieme apples: %.2c", applequantity, apple_prices, appleReviewDisplay, APPLE_LOCATION);
+
+
+    int Day_of_Week = 5; /*new*/
+    if((applequantity < 10) || (Day_of_Week % 7) == 4/*forcing console to focus priority*/) /*new*/
+    { 
+        printf("There is a 30 percent discount for our prices of apples!\n");
+    }
+    
+    
+}
