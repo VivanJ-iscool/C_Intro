@@ -1,3 +1,5 @@
+/*COIN FLIP DEMO*/
+
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <time.h>
@@ -21,6 +23,9 @@
 
 // }
 
+
+/*IF STATEMENTS*/
+
 //if statement in c has brackets after saying "if", with your following condition
 
 // #include <stdio.h>
@@ -40,17 +45,129 @@
 //     }
 // }
 
-#include <stdio.h>
-int main() {
-    
-    int a = 10;
-    int b = -5;
-    
-    if (a > 0 || b > 0) {
-        printf("Positive\n");
-    }
 
-    if (a > 0 && !(b > 0)){
-        printf("Positive too!\n")
-    }
-}
+/*WORKING WITH OPERATORS*/
+// #include <stdio.h>
+// int main() {
+    
+//     int a = 10;
+//     int b = -5;
+    
+//     if (a > 0 || b > 0) {
+//         printf("Positive\n");
+//     }
+
+//     if (a > 0 && !(b > 0)){
+//         printf("Positive too!\n");
+//     }
+// }
+
+
+/*ELSE STATEMENTS*/
+
+// #include <stdio.h>
+// int main() {
+    
+//     int grade1 = 59;
+//     int grade2 = 90;
+    
+//     if (grade1 > 60) {
+//         printf("Pass!\n");
+//     }
+    
+//     else {
+//         printf("Fail!\n");
+//     }
+
+//     if (grade2 > 60){
+//         printf("Pass!\n");
+//     }
+    
+//     else {
+//         printf("Fail!\n");
+//     }
+
+// }
+
+
+/*ELSE IF STATEMENTS*/
+
+// #include <stdio.h>
+// int main() {
+//     double ph = 7.9;
+    
+//     if (ph > 7) {
+//         printf("Basic\n");
+//         ph = 4.6; //when doing variable value change, it has to be attached to an if/else if statement
+//     } 
+//     else if (ph < 7) {
+//         printf("Acidic\n");
+//         ph = 7.0; // same applys here
+//     }
+//     else {
+//         printf("Neutral");
+//     }
+
+// }
+
+
+/*SWITCH STATEMENTS*/
+// #include <stdio.h>
+// int main() {
+//     int number = 7;
+//     switch(number) {
+//         case 1:
+//             printf("Bulbasaur\n");
+//             break;
+
+//         case 2:
+//             printf("Ivysaur\n");
+//             break;
+
+//         case 3:
+//             printf("Venusaur\n");
+//             break;
+        
+//         case 4:
+//             printf("Charmander\n");
+//             break;
+        
+//         case 5:
+//             printf("Charmeleon\n");
+//             break;
+        
+//         case 6:
+//             printf("Charizard\n");
+//             break;
+
+//         case 7:
+//             printf("Squirtle\n");
+
+//         case 8:
+//             printf("Wartortle");
+//             break;
+
+//         case 9:
+//             printf("Blastoise\n");
+//             break;
+        
+//         default:
+//             printf("Unknown\n");
+//             break;
+//         }
+// }
+
+
+//TERNARY OPERATORS (Shortcut for if or else statements)
+
+// #include <stdio.h>
+// int main(){
+//     int a = 4;
+//     int b = 9;
+//     int min;
+//     min = a < b ? a : b;
+//     printf("%d",min);
+// }
+
+
+//QUIZ
