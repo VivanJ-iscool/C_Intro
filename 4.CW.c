@@ -179,56 +179,189 @@ int main (){
     
     switch (month){
         case 1:
-            printf("January");
+            printf("January ");
             break;
 
         case 2:
-            printf("February");
+            printf("February ");
             break;
 
         case 3:
-            printf("March");
+            printf("March ");
             break;
 
         case 4:
-            printf("April");
+            printf("April ");
             break;
 
         case 5:
-            printf("May");
+            printf("May ");
             break;
 
         case 6:
-            printf("June");
+            printf("June ");
             break;
 
         case 7:
-            printf("July");
+            printf("July ");
             break;
 
         case 8:
-            printf("Augest");
+            printf("Augest ");
             break;
 
         case 9:
-            printf("September");
+            printf("September ");
             break;
 
         case 10:
-            printf("October");
+            printf("October ");
             break;
 
         case 11:
-            printf("November");
+            printf("November ");
             break;
 
         case 12:
-            printf("December");
+            printf("December ");
+            break;
+
+        default:
+            printf("Invalid month ");
+            break;
+    }
+
+    int day = 8;
+    switch (day){
+        case 1:
+            printf("1");
+            break;
+
+        case 2:
+            printf("2");
+            break;
+
+        case 3:
+            printf("3");
+            break;
+
+        case 4:
+            printf("4");
+            break;
+
+        case 5:
+            printf("5");
+            break;
+
+        case 6:
+            printf("6");
+            break;
+
+        case 7:
+            printf("7");
+            break;
+
+        case 8:
+            printf("8");
+            break;
+
+        case 9:
+            printf("9");
+            break;
+
+        case 10:
+            printf("10");
+            break;
+
+        case 11:
+            printf("11");
+            break;
+
+        case 12:
+            printf("12");
+            break;
+
+        case 13:
+            printf("13");
+            break;
+
+        case 14:
+            printf("14");
+            break;
+
+        case 15:
+            printf("15");
+            break;
+
+        case 16:
+            printf("16");
+            break;
+
+        case 17:
+            printf("17");
+            break;
+
+        case 18:
+            printf("18");
+            break;
+
+        case 19:
+            printf("19");
+            break;
+
+        case 20:
+            printf("20");
+            break;
+
+        case 21:
+            printf("21");
+            break;
+
+        case 22:
+            printf("22");
+            break;
+
+        case 23:
+            printf("23");
+            break;
+
+        case 24:
+            printf("24");
+            break;
+
+        case 25:
+            printf("25");
+            break;
+
+        case 26:
+            printf("26");
+            break;
+
+        case 27:
+            printf("27");
+            break;
+
+        case 28:
+            printf("28");
+            break;
+
+        case 29:
+            printf("29");
+            break;
+
+        case 30:
+            printf("30");
+            break;
+
+        case 31:
+            printf("31");
             break;
 
         default:
             printf("Invalid month");
             break;
     }
+
+
 
 }
