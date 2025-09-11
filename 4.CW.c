@@ -172,6 +172,37 @@
 
 //QUIZ
 
+//1 c
+
+//2
+//i,b,f,c,g,e
+
+//3 a
+
+//4
+//ternary operations
+
+//5
+//e,d,b
+
+//6
+//b
+
+//7
+//if
+
+//8
+//a
+
+//9
+//b
+
+//10
+//a
+
+//11
+//c
+
 //Project
 #include <stdio.h>
 int main (){
@@ -362,7 +393,6 @@ int main (){
             break;
     }
 
-    
     printf(", 2025.\n");   
 
 }
