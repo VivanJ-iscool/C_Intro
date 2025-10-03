@@ -1,5 +1,4 @@
 
-
 // 3 MAIN TYPES OF LOOPS: While Loops,
 // Do-While Loops & For Loops
 
@@ -102,14 +101,40 @@
 
 //For Loop
 
-#include <stdio.h>
-    int main() {
-        int i = 99;
+// #include <stdio.h>
+//     int main() {
+//         int i = 99;
         
-        // Write your loop here
-        while (i!=0){
-            printf("%d bottles of pop on the wall!\nTake one down and pass it around\n%d bottles of pop on the wall", i);
-            i--;
-    }
+//         // Write your loop here
+//         for (int i = 99; i>0; i--) {
+//             printf("%d bottles of pop on the wall!\n", i );
+//             printf("Take one down and pass it around\n");
+//             printf("%d bottles of pop on the wall\n\n", i);
+//         }
+// }
+
+
+//Breaking Out
+//break is used to break the loop; similar to python!
+
+#include <stdio.h>
+    
+int main() {
+        int number1 = 1;
+        int numbers_entered1 = 0;
+        
+        while (numbers_entered1 < 10) {
+            printf("Loop 1 - Please enter a number: ");
+            scanf("%d", &number1);
+            
+            // Figure out how to break out here!
+            if (number1 <= 0) {
+                break;
+            }
+            
+            numbers_entered1++;
+            }
+        
+    printf("Good job! You’ve broken out!\n");
 
 }
