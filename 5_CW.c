@@ -117,24 +117,28 @@
 //Breaking Out
 //break is used to break the loop; similar to python!
 
-#include <stdio.h>
+// #include <stdio.h>
     
-int main() {
-        int number1 = 1;
-        int numbers_entered1 = 0;
+// int main() {
+//         int number1 = 1;
+//         int numbers_entered1 = 0;
         
-        while (numbers_entered1 < 10) {
-            printf("Loop 1 - Please enter a number: ");
-            scanf("%d", &number1);
-            
-            // Figure out how to break out here!
-            if (number1 <= 0) {
-                break;
-            }
-            
-            numbers_entered1++;
-            }
-        
-    printf("Good job! You’ve broken out!\n");
+//         while (numbers_entered1 < 10) {
+//             printf("Loop 1 - Please enter a number: ");
+//             scanf("%d", &number1);
 
-}
+//         while (number1 > 0 && numbers_entered1 < 10){
+
+//         }
+            
+//             // Figure out how to break out here!
+//             if (number1 <= 0) {
+//                 break;
+//             }
+            
+//             numbers_entered1++;
+//             }
+        
+//     printf("Good job! You’ve broken out!\n");
+// }
+
