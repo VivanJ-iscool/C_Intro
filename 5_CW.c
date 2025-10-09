@@ -142,3 +142,39 @@
 //     printf("Good job! You’ve broken out!\n");
 // }
 
+
+//Continuing
+// #include <stdio.h>
+//     int main() {
+
+        
+//         for (int i=0; i<10; i++) {
+            
+//             if (i == 5){
+//                 continue;
+//             }
+//             printf("%d\n", i);
+        
+//         }
+// }
+
+
+//Quiz
+
+//1
+//i, <=, 10
+
+//2
+//a
+
+//3
+//int i==10, i>10, i--
+
+//4
+//do(i<10), while(i<=10), i++
+
+//5
+//b
+
+//6
+//a...?
