@@ -40,6 +40,27 @@
 //     printf("%s", p);
 // }
 
-//6.1.4 Looping Through Stringsg strings
-char str[]
+//6.1.4 Looping Through String strings
+#include <stdio.h>
+#include <string.h> //strings and their characters don't 
+int main(){
+    char s[] = "When the zombies arrive, quickly fax Judge Pat Alphabet";
+    char p[] = "poolloop";
+    
+    // Checkpoint 1 code goes here
+    // for (int i = 0; i<strlen(s); i++){
+    //     printf("*");
+    // }
+    // Checkpoint 2 code goes here
+    for (int i = 0; i < 4; i++){
+        printf("# ");
+    }
+}
+
+
+
+
+
+
+
 
