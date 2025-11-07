@@ -48,14 +48,18 @@ int main(){
     char p[] = "poolloop";
     
     // Checkpoint 1 code goes here
-    // for (int i = 0; i<strlen(s); i++){
-    //     printf("*");
-    // }
+    for (int i = 0; i<strlen(s); i++){
+        s[i] ="*";
+    }
     // Checkpoint 2 code goes here
-    for (int i = 0; i < 4; i++){
-        printf("# ");
+    for (int i = 0; i < strlen([p]/2); i++){
+        s[i] = "#";
     }
 }
+
+
+//6.1.5 Concatenating Strings
+
 
 
 
