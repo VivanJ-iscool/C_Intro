@@ -48,19 +48,24 @@ int main(){
     char p[] = "poolloop";
     
     // Checkpoint 1 code goes here
-    for (int i = 0; i<strlen(s); i++){
-        s[i] ="*";
+    for (int i = 0; i< strlen(s); i++){
+        s[i] = '*';
+       
     }
+     printf("%s",s);
     // Checkpoint 2 code goes here
-    for (int i = 0; i < strlen([p]/2); i++){
-        s[i] = "#";
+    for (int i = 0; i < (strlen(p) / 2); i++){
+        p[i] = '#';
+       
     }
+    printf("\n %s", p);
+    return 0;
 }
 
 
 //6.1.5 Concatenating Strings
 
-
+//strcat.h() basically allows one string to be added to the end of another (str(src)+ strlen(dst)+ 1)
 
 
 
