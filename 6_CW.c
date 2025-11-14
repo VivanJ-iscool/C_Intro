@@ -41,35 +41,76 @@
 // }
 
 //6.1.4 Looping Through String strings
-#include <stdio.h>
-#include <string.h> //strings and their characters don't 
-int main(){
-    char s[] = "When the zombies arrive, quickly fax Judge Pat Alphabet";
-    char p[] = "poolloop";
+// #include <stdio.h>
+// #include <string.h> //strings and their characters don't 
+// int main(){
+//     char s[] = "When the zombies arrive, quickly fax Judge Pat Alphabet";
+//     char p[] = "poolloop";
     
-    // Checkpoint 1 code goes here
-    for (int i = 0; i< strlen(s); i++){
-        s[i] = '*';
+//     // Checkpoint 1 code goes here
+//     for (int i = 0; i< strlen(s); i++){
+//         s[i] = '*';
        
-    }
-     printf("%s",s);
-    // Checkpoint 2 code goes here
-    for (int i = 0; i < (strlen(p) / 2); i++){
-        p[i] = '#';
+//     }
+//      printf("%s",s);
+//     // Checkpoint 2 code goes here
+//     for (int i = 0; i < (strlen(p) / 2); i++){
+//         p[i] = '#';
        
-    }
-    printf("\n %s", p);
-    return 0;
-}
+//     }
+//     printf("\n %s", p);
+//     return 0;
+// }
 
 
 //6.1.5 Concatenating Strings
 
-//strcat.h() basically allows one string to be added to the end of another (str(src)+ strlen(dst)+ 1)
+//strcat() basically allows one string to be added to the end of another (str(src)+ strlen(dst)+ 1)
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int main(){
+//     char str1[] = "Oh my ";
+//     char str2[] = "67 my 67";
+//     strcat(str1, str2);
+//     printf("%s", str1);
+// }
 
 
+#include<stdio.h>
+#include<string.h>
+    int main() {
+        char s1[] = "London";
+        char s2[] = " Bridge";
+        char n[] = "New";
+        char y[] = " York";
+        char c[] = " City";
+// Code for checkpoint 1 goes here
+        strcat(s1, s2);
+        printf("%s\n", s1);
+// Code for checkpoint 2 goes here
+        strcat(n,y);
+        strcat(n,c);
+        printf("%s\n", n); 
+}
 
+//6.1.5 Copying Strings
 
+//strcpy()
 
+#include<stdio.h>
+#include<string.h>
+    int main() {
+        char src[] = "banana";
+        char dst[7];
+        char pan[] = "How vexingly quick daft zebras jump!";
+        int len = 0; // Checkpoint 2
+    char dst2[len];
+    // Code for checkpoint 1 goes here
+    printf("%s\n", dst);
+    
+    // Code for checkpoint 3 goes here
+    printf("%s", dst2);
 
-
+}
