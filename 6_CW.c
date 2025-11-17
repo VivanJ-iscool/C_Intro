@@ -78,24 +78,24 @@
 // }
 
 
-#include<stdio.h>
-#include<string.h>
-    int main() {
-        char s1[] = "London";
-        char s2[] = " Bridge";
-        char n[] = "New";
-        char y[] = " York";
-        char c[] = " City";
-// Code for checkpoint 1 goes here
-        strcat(s1, s2);
-        printf("%s\n", s1);
-// Code for checkpoint 2 goes here
-        strcat(n,y);
-        strcat(n,c);
-        printf("%s\n", n); 
-}
+// #include<stdio.h>
+// #include<string.h>
+//     int main() {
+//         char s1[] = "London";
+//         char s2[] = " Bridge";
+//         char n[] = "New";
+//         char y[] = " York";
+//         char c[] = " City";
+// // Code for checkpoint 1 goes here
+//         strcat(s1, s2);
+//         printf("%s\n", s1);
+// // Code for checkpoint 2 goes here
+//         strcat(n,y);
+//         strcat(n,c);
+//         printf("%s\n", n); 
+// }
 
-//6.1.5 Copying Strings
+//6.1.6 Copying Strings
 
 //strcpy()
 
@@ -107,10 +107,11 @@
         char pan[] = "How vexingly quick daft zebras jump!";
         int len = 0; // Checkpoint 2
     char dst2[len];
-    // Code for checkpoint 1 goes here
-    printf("%s\n", dst);
     
+    strcpy(src,dst);
+    printf("%s\n", dst);
     // Code for checkpoint 3 goes here
+
     printf("%s", dst2);
 
 }
